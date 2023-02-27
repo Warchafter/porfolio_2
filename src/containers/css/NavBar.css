@@ -2,3 +2,23 @@
     background: #62334D;
     max-width: 200px;
 }
+
+#header-menu-outer {
+    height: 60px;
+    padding-top: 6px;
+    background-color: azure;
+}
+
+.table {
+    display: table;
+    margin: 0 auto;
+    background-color: #62334D;
+}
+
+ul#horizontal-list {
+    min-width: 696px;
+    list-style: none;
+}
+ul#horizontal-list li {
+    display: inline;
+}

@@ -1,3 +1,8 @@
+.main {
+    background-color: #312f33;
+    display: block
+}
+
 .parent {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
