@@ -1,18 +1,13 @@
-.navBar1 {
-    background: #62334D;
-    max-width: 200px;
-}
-
 #header-menu-outer {
     height: 60px;
     padding-top: 6px;
-    background-color: azure;
+    background-color: rgba(45,43,65,255)
 }
 
 .table {
     display: table;
     margin: 0 auto;
-    background-color: #62334D;
+    background-color: #424142;
 }
 
 ul#horizontal-list {
@@ -21,4 +16,8 @@ ul#horizontal-list {
 }
 ul#horizontal-list li {
     display: inline;
+}
+
+.list-item-nav{
+
 }

@@ -6,9 +6,18 @@ const HeroHeader = () => {
         <div className="hero-image">
             <div className="hero-text">
                 <div className="parentHeroHeader">
-                    <div className="itemHeroHeader">a</div>
-                    <div className="itemHeroHeader">b</div>
-                    <div className="itemHeroHeader">c</div>
+                    <div className="itemHeroHeader">
+                        <h1>Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit.
+                        </h1>
+                    </div>
+                    <div className="itemHeroHeader"></div>
+                    <div className="itemHeroHeader">
+                        <h1>Lorem ipsum dolor sit
+                            amet, consectetur
+                            adipiscing elit.
+                        </h1>
+                    </div>
                 </div>
             </div>
         </div>

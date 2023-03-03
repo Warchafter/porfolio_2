@@ -7,17 +7,17 @@ const NavBar = () => {
     <div id="header-menu-outer">
         <div className='table'>
             <ul id="horizontal-list">
-                <li>
-                    <Link to="/">a</Link>
+                <li className='list-item-nav'>
+                    a
                 </li>
                 <li>
-                    <Link to="/b">b</Link>
+                    b
                 </li>
                 <li>
-                    <Link to="/c">c</Link>
+                    c
                 </li>
                 <li>
-                    <Link to="/d">d</Link>
+                    d
                 </li>
             </ul>
         </div>

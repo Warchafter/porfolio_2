@@ -4,7 +4,13 @@ body, html {
 
 .hero-image {
     background-image: url("../../assets/images/hero-header.png");
-    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../../assets/images/hero-header.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45),
+    rgba(0, 0, 0, .25),
+    rgba(0, 0, 0, .25),
+    rgba(0, 0, 0, .45),
+    rgba(0, 0, 0, .65),
+    rgba(0, 0, 0, 0.95)),
+    url("../../assets/images/hero-header.png");
 
     display: block;
     position: relative;
@@ -16,14 +22,11 @@ body, html {
     position: relative;
 }
 
-
 .hero-text {
     text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgb(59, 59, 59);
+    transform: translate(0, 150px);
+    color: rgb(0, 0, 0);
+    font-family: 'Signika Negative', sans-serif;
 }
 
 .parentHeroHeader {
@@ -35,6 +38,4 @@ body, html {
 }
 
 .itemHeroHeader {
-    background-color: #28242c;
-    border: 1px solid black;
 }
