@@ -1,5 +1,5 @@
 .main-showcase-body {
-    background-color: #030304;
+    background-color: rgb(3, 3, 4);
 }
 
 .container {
@@ -7,7 +7,6 @@
     background-color: #030304;
     padding: 60px;
 }
-
 
 .panel {
     background-size: cover;
@@ -53,4 +52,21 @@
 .panel:nth-of-type(5) {
     display: none;
 }
+}
+
+.transition-block-1 {
+    height: 100px;
+    width: auto;
+    background-color: #030304;
+}
+
+.transition-block-2 {
+    height: 200px;
+    width: auto;
+    background-image: linear-gradient(rgba(3, 3, 4),
+    rgb(12, 12, 17),
+    rgb(23, 18, 29),
+    rgb(23, 18, 29),
+    rgb(25, 19, 32),
+    rgb(30, 23, 39))
 }

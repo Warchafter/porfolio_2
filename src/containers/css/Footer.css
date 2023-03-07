@@ -1,5 +1,5 @@
 .main {
-    background-color: #312f33;
+    background-color: #12121a;
     display: block;
     height: 353.55px;
 }
@@ -20,37 +20,82 @@
 .wrapper {
     position: relative;
 }
+
 .sm-triangle {
     width: 150px;
     height: 150px;
-    background: #4CAAB3;
+    background: #1c142c;
     position: relative;
     top: -93.5%;
     left: 45%;
     transform: rotate(45deg);
 }
+
 .bg-diamond {
     width: 250px;
     height: 250px;
-    background: #222730;
+    background: #12121a;
     position: relative;
     top: -32.2%;
     left: 42.5%;
-    transform: rotate(45deg)
+    transform: rotate(45deg);
 }
+
 .strip {
     width: 100%;
     height: 150px;
-    background: #4CAAB3;
+    background: #1c142c;
     position: relative;
     top: 28.5%;
 }
+
 .dot {
     width: 50px;
     height: 50px;
     border-radius: 50px;
-    background: #393E46;
+    background: #12121a;
     position: relative;
     top: -125%;
     left: 47.8%;
+}
+
+
+.body-footer {
+    background-color: #12121a;
+    height: 355px;
+    width: 100%;
+}
+
+.rectangle-footer {
+    width: 100%;
+    height: 150px;
+    background-color: #1c142c;
+    position: relative;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.square-footer {
+    width: 150px;
+    height: 150px;
+    background-color: #1c142c;
+    position: relative;
+    top: 7.5%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    box-shadow: 0 0 0 50px #12121a;
+}
+
+.square-footer::after{
+    display: block;
+    content: '';
+    width: 50px;
+    height: 50px;
+    background-color: #12121a;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
 }

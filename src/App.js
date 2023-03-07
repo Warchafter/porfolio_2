@@ -5,6 +5,7 @@ import Footer from './containers/Footer';
 import HeroHeader from './containers/HeroHeader';
 import ProjectShowcase from './containers/ProjectShowcase';
 import "./global.css";
+import SkillShowcase from './containers/SkillsShowcase';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
           <NavBar></NavBar>
           <HeroHeader></HeroHeader>
           <ProjectShowcase></ProjectShowcase>
+          <SkillShowcase></SkillShowcase>
           <Footer></Footer>
     </Router>
   );

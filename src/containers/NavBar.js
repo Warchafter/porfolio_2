@@ -4,25 +4,10 @@ import { Link } from 'react-router-dom';
 
 const NavBar = () => {
     return (
-    <div id="header-menu-outer">
-        <div className='table'>
-            <ul id="horizontal-list">
-                <li className='list-item-nav'>
-                    a
-                </li>
-                <li>
-                    b
-                </li>
-                <li>
-                    c
-                </li>
-                <li>
-                    d
-                </li>
-            </ul>
+        <div className='base-header'>
+            <div className='floating-header'>
+            </div>
         </div>
-    </div>
-
     )
 }
 
