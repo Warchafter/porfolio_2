@@ -14,7 +14,7 @@ const ProjectShowcase = () => {
         panel.addEventListener("click", () => {
             removeActiveClasses();
             panel.classList.add("active");
-        });
+            });
         });
     };
 

@@ -4,6 +4,7 @@ import NavBar from './containers/NavBar';
 import Footer from './containers/Footer';
 import HeroHeader from './containers/HeroHeader';
 import ProjectShowcase from './containers/ProjectShowcase';
+
 import "./global.css";
 import SkillShowcase from './containers/SkillsShowcase';
 
